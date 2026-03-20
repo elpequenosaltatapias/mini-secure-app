@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Ejecutar tests
-        run: npm test
+        run: npx jest
 
       - name: Escaneo de dependencias
-        run: npm auditgit
+        run: npm audit
